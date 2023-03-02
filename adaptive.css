@@ -1,0 +1,16 @@
+@media only screen and (max-width: 380px) {
+  .y {
+    display: none;
+  }  
+  .nav {
+    padding-top: 0;
+  }
+  .navbar {
+    flex-direction: column;
+    line-height: 30px;
+  }
+  .lang {
+    width: 225px;
+    margin-right: 60px;
+  }
+}
