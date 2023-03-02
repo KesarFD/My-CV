@@ -38,15 +38,6 @@ Since childhood I have been interested in Computer Science, began to study Scrat
 * JavaScript/Frontend Pre-School 2022Q4
 * JavaScript/Frontend Pre-School 2023Q1
 
-### **Code Example**
-From CodeWars
-```function bingo(ticket, win){
-  if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win)
-  {
-    return "Winner!";
-  }
-  return "Loser!";
-}```
 
 ### **Projects**
 
@@ -66,5 +57,13 @@ Plants – landing page of a website that offers its services for growing plants
 
 Link - [Click!](https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/plants/)
 
-
+### **Code Example**
+From CodeWars
+```function bingo(ticket, win){
+  if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win)
+  {
+    return "Winner!";
+  }
+  return "Loser!";
+}```
 
