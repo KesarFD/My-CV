@@ -1,7 +1,74 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+html {
+    scroll-behavior: smooth; 
+  }
 .container {
     max-width: 1440px;
     margin: 0 auto;
   }
+/* Header Start */
+.header {
+    background-color: #105C87;
+    width: 100%;
+    height: 135px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-top: 17.5px;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav-link:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #FFFFFF; /* Цвет линии */
+    width: 0px; /* Ширина линии до наведения */
+    margin: 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.nav-link:hover:after {
+    width: 100%; /* Ширина линии при наведении */
+	transition: ease-out 0.5s; /* Время, за которое линия расширяется при наведении */
+}
+.lang {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: #105C87;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.5s;
+}
+.lang:hover {
+    background: #282828;
+    border: 0px
+}
+/* Header END */
+
