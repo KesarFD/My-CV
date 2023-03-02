@@ -38,7 +38,7 @@ Since childhood I have been interested in Computer Science, began to study Scrat
 
 Momentum - is an analog of the Chrome online store application of the same name. The app shows the time and the username. The background image and greeting change depending on the time of day.The application has a clock, an image slider, weather widgets, an audio player, a quote of the day block, settings. Local storage is used to store the user name and the locality.
 
-Link - https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/momentum/
+Link - [Click!](https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/momentum/)
 
 
 #### **Plants** 
@@ -46,7 +46,7 @@ Link - https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/momen
 
 Plants – landing page of a website that offers its services for growing plants in the garden and caring for them, it is adaptive and interactive.
 
-Link - https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/plants/
+Link - [Click!](https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/plants/)
 
 
 
