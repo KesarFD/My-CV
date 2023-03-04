@@ -449,3 +449,21 @@ body::-webkit-scrollbar-thumb {
     --d: 100%;
     color: #B1361E;
 }
+/* Code example END */
+
+/* Footer */
+.footer {
+    height: 135px;
+    background-color: #105C87;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
