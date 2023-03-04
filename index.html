@@ -70,7 +70,7 @@
                 </div>
             </section>
             <div class="line"></div>
-            <section class="experience">
+            <section class="experience" id="experience">
                 <h2 class="about">Experience</h2>
                 <ul class="exp-list">
                     <li class="exp-item">JavaScript/Frontend Pre-School 2021Q2</li>
@@ -80,7 +80,7 @@
                     <li class="exp-item">JavaScript/Frontend Pre-School 2023Q1</li>
                 </ul>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2 class="about">Hard Skills</h2>
                 <div class="skills-wrapper">
                     <div class="current-skills">
@@ -124,7 +124,7 @@
                             </li>
                             <li class="csl-item">
                                 <img src="/rsschool-cv/assets/png/scss.png" alt="scss" class="skills-img"> 
-                                <h4 class="contacts-h4">SCSS</h4>
+                                <h4 class="contacts-h4">SASS</h4>
                             </li>
                             <li class="csl-item">
                                 <img src="/rsschool-cv/assets/png/next.png" alt="next" class="skills-img"> 
@@ -135,6 +135,36 @@
                 </div>
             </section>
             <div class="line"></div>
+            <section class="projects" id="projects">
+                <h2 class="about">Projects</h2>
+                <h2 class="projects-h2">Momentum</h2>
+                <h4 class="projects-text">Momentum - is an analog of the Chrome online store application of the same name. The app shows the time and the username. The background image and greeting change depending on the time of day.The application has a clock, an image slider, weather widgets, an audio player, a quote of the day block, settings. Local storage is used to store the user name and the locality.</h4>
+                <img src="assets/img/image 2.png" alt="Momentum" class="projects-jpg">
+                <button class="projects-btn" onclick="location.href='https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/momentum/';">See Project</button>
+                <h2 class="projects-h2">Plants</h2>
+                <h4 class="projects-text">Plants – landing page of a website that offers its services for growing plants in the garden and caring for them, it is adaptive and interactive.</h4>
+                <img src="assets/img/image 1.jpg" alt="Plants" class="projects-jpg">
+                <button class="projects-btn" onclick="location.href='https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/plants/';">See Project</button>
+            </section>
+            <section class="code-example">
+                <div class="codewars">
+                    <img src="assets/png/cw.png" alt="cw" class="cw">
+                    <a href="https://www.codewars.com/users/rsschool_3af8bd9c50b4491d" class="cw-h3">My CodeWars</a>
+                </div>
+                <div class="example">
+                    <h3 class="ex-h3">Code example</h3>
+                    <div class="code-ex">
+                    <code>
+                        function bingo(ticket, win){<br>
+                            if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win)<br>
+                            {<br>
+                            return "Winner!";<br>
+                            }<br>
+                            return "Loser!";<br>
+                    </code>
+                    </div>
+                </div>
+            </section>
         </div>
     <script src="index.js"></script>
     </main>

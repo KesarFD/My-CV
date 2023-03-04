@@ -7,6 +7,15 @@ html {
 main {
     background-color: #282828;
 }
+body::-webkit-scrollbar {
+    width: 15px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #282828;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #105C87;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -194,6 +203,13 @@ main {
     color: #E0E5E9;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
+    transition: 0.5s;
+}
+.contacts-h4:hover {
+    scale: 1.05;
+    color: #105C87;
+    filter: drop-shadow(0 0 15px #105C87);
+
 }
 .contacts-img {
     width: 64px;
@@ -216,9 +232,15 @@ main {
     color: #E0E5E9;
 }
 .line {
-    width: 100%;
+    width: 0.1%;
     height: 3px;
     background: #E0E5E9;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 2s;
+}
+.line-hover {
+    width: 100%;
 }
 /* Contacts and soft END */
 
@@ -286,3 +308,144 @@ main {
     margin-bottom: 100px;
 }
 /* Skills END*/
+
+/* Projects */
+.projects {
+    height: 2380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 112px;
+    align-items: center;
+}
+.projects-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    color: #E0E5E9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.projects-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #E0E5E9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin-bottom: 85px;
+}
+.projects-jpg {
+    width: 1000px;
+    height: 555.19px;
+    margin-bottom: 60px;
+}
+.projects-btn {
+    width: 250px;
+    height: 75px;
+    background: #105C87;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+    border: 0px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.projects-btn:hover {
+    scale: 1.02;
+    color: #105C87;
+    background-color: #E0E5E9;
+    filter: drop-shadow(0 0 15px #105C87);
+}
+/* Projects END */
+
+/* Code example */
+.code-example {
+    width: 100%;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    padding-bottom: 66px;
+}
+.codewars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cw-h3 {
+    width: 320px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 120%;
+    text-align: center;
+    color: #E0E5E9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 65px;
+    transition: 0.5s;
+    background:
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 100% 0,
+    linear-gradient(currentColor 0 0) 100% 0;
+    background-size: 20px 3px, 3px 20px;
+    background-repeat: no-repeat;
+}
+.cw-h3:hover {
+    color: #B1361E;
+    background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+}
+.ex-h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #E0E5E9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+.code-ex {
+    display: flex;
+    padding-left: 32px;
+    padding-top: 16px;
+    width: 100%;
+    height: 180px;
+    background:
+    linear-gradient(currentColor 0 0) 100% 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+    background-size: var(--d, 0) 3px, 3px var(--d, 0);
+    background-repeat: no-repeat;
+    transition: 2s;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #E0E5E9;
+}
+.ex-hover {
+    --d: 100%;
+    color: #B1361E;
+}
