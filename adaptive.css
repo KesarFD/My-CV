@@ -1,4 +1,8 @@
 @media only screen and (max-width: 380px) {
+  .container {
+    max-width: 380px;
+  }
+  /* Header */
   .y {
     display: none;
   }  
@@ -12,5 +16,152 @@
   .lang {
     width: 225px;
     margin-right: 60px;
+  }
+  /* Introduce */
+  .me {
+    width: 250px;
+    height: 250px;
+    margin-left: 66px;
+  }
+  .introduce {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 55px;
+  }
+  .introduce-h1 {
+    font-size: 32px;
+    width: 380px;
+    padding: 0 20px;
+    background: none;
+  }
+  /* About me */
+  .about-me {
+    height: 600px;
+    padding-top: 40px;
+  }
+  .about {
+    font-size: 32px;
+  }
+  .about-text {
+    font-size: 24px;
+    padding: 0 20px;
+  }
+  /* Contacts soft */
+  .contacts-soft {
+    height: 1000px;
+    padding-top: 88px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .contacts-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .contacts-h4 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  .contacts-item {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .contacts-item:last-child {
+    width: 380px;
+  }
+  .contacts {
+    width: 365px;
+  }
+  .line {
+    display: none;
+  }
+  .contacts-h2 {
+    font-size: 32px;
+  }
+  .soft-list {
+    font-size: 32px;
+  }
+  /* Experience */ 
+  .exp-list {
+    font-size: 32px;
+  }
+  .experience {
+    height: 780px;
+  }
+  /* Skills */ 
+  .skills {
+    height: 1110px;
+    width: 100%;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 55px;
+  }
+  .current-skills-list {
+    padding: 10px 20px;
+  }
+  .progress-skills {
+    margin-bottom: 100px;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  /* Projects */
+  .projects {
+    height: 1500px;
+  }
+  .projects-h2 {
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .projects-text {
+    font-size: 24px;
+    padding: 0 20px;
+    width: 340px;
+    margin-bottom: 45px;
+  }
+  .projects-jpg {
+    display: none;
+  }
+  /* Code example */
+  .example {
+    display: none;
+  }
+  .code-example {
+    height: 226px;
+  }
+  /* footer */
+  .footer {
+    height: 300px;
+    background-color: #105C87;
+    padding: 10px 0;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+    height: 300px;
   }
 }

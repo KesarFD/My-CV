@@ -77,10 +77,11 @@ body::-webkit-scrollbar-thumb {
     line-height: 100%;
     color: #FFFFFF;
     text-align: center;
-    transition: 1s;
+    transition: 0.5s;
 }
 .lang:hover {
-    background: #282828;
+    background: #FFFFFF;
+    color: #282828;
     border: 0px
 }
 /* Header END */
