@@ -12,7 +12,7 @@
 
 ### **About me**
 I’m a first-year student of The Kosygin State University of Russia.
-Since childhood I have been interested in Computer Science, began to study Scratch, played a lot of games, participated in simple esports tournaments and now i’m here, in web programming.
+Since childhood I have been interested in Computer Science, began to study Scratch, played a lot of games, participated in simple esports tournaments and now i’m here, in web programming. 
 
 ----
 ### **Soft skills**
@@ -21,6 +21,7 @@ Since childhood I have been interested in Computer Science, began to study Scrat
 * Hard-worker
 * Quick learner
 * Stress-resistant
+* English - B2
 
 ### **Hard skills**
 * HTML
@@ -29,6 +30,14 @@ Since childhood I have been interested in Computer Science, began to study Scrat
 * NodeJS
 * GoLang (Basic)
 * Git, GitHub
+
+### **Education**
+* JavaScript/Frontend Pre-School 2021Q2
+* JavaScript/Frontend 2021Q3
+* Stepick course “Core GoLang” 2022
+* JavaScript/Frontend Pre-School 2022Q4
+* JavaScript/Frontend Pre-School 2023Q1
+
 
 ### **Projects**
 
@@ -48,5 +57,13 @@ Plants – landing page of a website that offers its services for growing plants
 
 Link - [Click!](https://rolling-scopes-school.github.io/kesarfd-JSFEPRESCHOOL2022Q4/plants/)
 
-
+### **Code Example**
+From CodeWars
+```function bingo(ticket, win){
+  if(ticket.filter(a => a[0].split('').some(b => b.charCodeAt(0) == a[1])).length >= win)
+  {
+    return "Winner!";
+  }
+  return "Loser!";
+}```
 
