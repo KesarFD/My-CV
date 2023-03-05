@@ -1,5 +1,19 @@
 const h12 = document.querySelector('.introduce-h1');
 const ex = document.querySelector('.code-ex')
+const theme = document.querySelector('#theme-link')
+const btn = document.querySelector('.theme-btn')
+const themeImg = document.querySelector('.moon')
+
+btn.addEventListener('click', function() {
+  if (theme.getAttribute('href') == "style.css") {
+    theme.href = "dark.css";
+    themeImg.src = "assets/png/sun.png"
+  } else {
+    theme.href = "style.css";
+    themeImg.src = "assets/png/moon.png"
+  }
+})
+
 document.onreadystatechange = function () {
     if (document.readyState == "interactive") {
         h12.classList.add('hover1');

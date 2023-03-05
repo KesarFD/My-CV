@@ -5,13 +5,13 @@ html {
     scroll-behavior: smooth; 
   }
 main {
-    background-color: #282828;
+    background-color: #E0E5E9;
 }
 body::-webkit-scrollbar {
     width: 15px;
 }
 body::-webkit-scrollbar-track {
-    background-color: #282828;
+    background-color: #E0E5E9;
 }
 body::-webkit-scrollbar-thumb {
     background-color: #105C87;
@@ -55,18 +55,18 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 24px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #282828;
     padding: 0%;
 }
 .nav-link {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #282828;
 }
 .nav-link:after {
     content: '';
     display: block;
     height: 1px; /* Высота линии */
-    background: #FFFFFF; /* Цвет линии */
+    background: #282828; /* Цвет линии */
     width: 0px; /* Ширина линии до наведения */
     margin: 0; /* Отступ с боков по центру и сверху */
 	transition: 1s; /* Время, за которое линия возвращается после наведения */
@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: 
     linear-gradient(currentColor 0 0) left  var(--p, 50%) bottom 0 /var(--d, 20px) 3px no-repeat,
@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 48px;
     line-height: 120%;
     text-align: center;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
 }
@@ -136,7 +136,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%px;
     margin-top: 88px;
@@ -164,7 +164,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 48px;
     line-height: 120%;
     text-align: center;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .contacts-list {
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 40px;
     line-height: 120%;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
     transition: 0.5s;
@@ -221,12 +221,12 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 40px;
     line-height: 60px;
-    color: #E0E5E9;
+    color: #282828;
 }
 .line {
     width: 0.1%;
     height: 3px;
-    background: #E0E5E9;
+    background: #282828;
     margin-left: auto;
     margin-right: auto;
     transition: 2s;
@@ -251,11 +251,11 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 40px;
     line-height: 72px;
-    color: #E0E5E9;
+    color: #282828;
 
 }
 .exp-link {
-    color: #E0E5E9;
+    color: #282828;
     transition: 0.5s;
 }
 .exp-link:hover {
@@ -326,7 +326,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 44px;
     line-height: 120%;
     text-align: center;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 100px;
     margin-bottom: 30px;
@@ -337,7 +337,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     margin-bottom: 85px;
@@ -357,7 +357,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 32px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #282828;
     border: 0px;
     transition: 1s;
     display: flex;
@@ -396,7 +396,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 44px;
     line-height: 120%;
     text-align: center;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 10px;
     margin-bottom: 65px;
@@ -419,7 +419,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 48px;
     line-height: 120%;
-    color: #E0E5E9;
+    color: #282828;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 0;
     margin-bottom: 25px;
@@ -466,5 +466,5 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     font-size: 32px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #282828;
 }
