@@ -1,2 +1,2 @@
-# [rsschool-cv-md](https://kesarfd.github.io/rsschool-cv/cv)
-# [rsschool-cv](https://kesarfd.github.io/rsschool-cv/)
+# [CV-MD](https://kesarfd.github.io/My-CV/cv)
+# [CV](https://kesarfd.github.io/My-CV/)
